@@ -25,7 +25,7 @@
     <ul>
         <li><strong>Message</strong> – The raw email or SMS text</li>
         <li><strong>Label</strong> – Spam (1) or Ham (0)</li>
-        <li><strong>Engineered Features</strong> – TF-IDF, Bag of Words, n-grams, etc.</li>
+        <li><strong>Engineered Features</strong> – TF-IDF.</li>
     </ul>
     <h2>Methodology</h2>
     <h3>Data Preprocessing</h3>
