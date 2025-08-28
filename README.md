@@ -32,16 +32,7 @@
     <ul>
         <li>Lowercasing and cleaning text</li>
         <li>Removing stopwords and punctuation</li>
-        <li>Tokenization and lemmatization</li>
         <li>Vectorization using TF-IDF</li>
-    </ul>
-    <h3>Modeling</h3>
-    <p>Several machine learning algorithms are tested, including:</p>
-    <ul>
-        <li>Logistic Regression</li>
-        <li>Naive Bayes</li>
-        <li>Support Vector Machines</li>
-        <li>Random Forest</li>
     </ul>
     <h3>Evaluation</h3>
     <p>Models are evaluated using the following metrics:</p>
@@ -53,7 +44,7 @@
         <li>Confusion Matrix</li>
     </ul>
     <h2>Results</h2>
-    <p>The best-performing model (e.g., Logistic Regression / Naive Bayes) achieved high accuracy and 
+    <p>The best-performing model (i.e, Logistic Regression achieved a tremendous accuracy of 97% alongside high
     recall, effectively detecting spam messages while minimizing false positives.</p>
     <h2>Conclusion</h2>
     <p>This project demonstrates the application of machine learning for spam detection and 
