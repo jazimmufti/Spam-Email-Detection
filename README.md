@@ -32,7 +32,7 @@
     <ul>
         <li>Lowercasing and cleaning text</li>
         <li>Removing stopwords and punctuation</li>
-        <li>Vectorization using TF-IDF(Term Frequency–Inverse Document Frequency)</li>
+        <li>Vectorization using TF-IDF</li>
     </ul>
     <h3>Evaluation</h3>
     <p>Models are evaluated using the following metrics:</p>
@@ -59,7 +59,7 @@
     <h2>References</h2>
     <ul>
         <li>Dataset: <a href="https://archive.ics.uci.edu/ml/datasets/sms+spam+collection" target="_blank">UCI SMS Spam Dataset</a></li>
-        <li>Scikit-learn Documentation: <a href="https://scikit-learn.org/stable/" target="_blank">Scikit-learn Documentation</a></li>
+        <li>Documentation: <a href="https://scikit-learn.org/stable/" target="_blank">Scikit-learn Documentation</a></li>
     </ul>
 </body>
 </html>
