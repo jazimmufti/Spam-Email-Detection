@@ -1,112 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>README</title>
+    <meta charset="UTF-8">
 </head>
 <body>
-  <h1>Project README</h1>
-  <p>Generated on: 2025-08-28 17:19:00</p>
-
-  <h2>Overview</h2>
-  <p>This repository contains a dataset (CSV) and a Jupyter Notebook (IPYNB) for data analysis and experimentation. 
-  Use the sections below to understand the data, environment requirements, and steps to reproduce the analyses.</p>
-
-  <h2>Repository Contents</h2>
-  <ul>
-    <li>ecbd7475-015e-40d6-82b5-25ca408b6def.csv</li>
-    <li>2927fb18-ef97-48a7-95bb-9b330025d40d.ipynb</li>
-  </ul>
-
-  <h2>Dataset</h2>
-  <p><strong>File:</strong> ecbd7475-015e-40d6-82b5-25ca408b6def.csv</p>
-  <p><strong>Rows (total):</strong> (number of rows will be detected on your system)</p>
-  <p><strong>Columns:</strong> (number of columns will be detected on your system)</p>
-
-  <h3>Column Names</h3>
-  <ul>
-    <li>Column1</li>
-    <li>Column2</li>
-    <li>...</li>
-  </ul>
-
-  <h3>Data Types</h3>
-  <dl>
-    <dt>Column1</dt><dd>int64</dd>
-    <dt>Column2</dt><dd>object</dd>
-    <dt>...</dt>
-  </dl>
-
-  <h3>Missing Values (in sampled read)</h3>
-  <dl>
-    <dt>Column1</dt><dd>0</dd>
-    <dt>Column2</dt><dd>3</dd>
-    <dt>...</dt>
-  </dl>
-
-  <h2>Notebook</h2>
-  <p><strong>File:</strong> 2927fb18-ef97-48a7-95bb-9b330025d40d.ipynb</p>
-
-  <h3>Environment</h3>
-  <dl>
-    <dt>Kernel</dt><dd>python3</dd>
-    <dt>Language</dt><dd>python</dd>
-    <dt>Language Version</dt><dd>3.x</dd>
-  </dl>
-
-  <h3>Detected Python Dependencies</h3>
-  <ul>
-    <li>numpy</li>
-    <li>pandas</li>
-    <li>matplotlib</li>
-    <li>scikit-learn</li>
-  </ul>
-
-  <h3>Top Notebook Headings</h3>
-  <ul>
-    <li># Data Exploration</li>
-    <li>## Preprocessing</li>
-    <li>## Model Training</li>
-    <li>## Results</li>
-  </ul>
-
-  <h3>Notebook Summary Snippets</h3>
-  <ul>
-    <li># This notebook demonstrates analysis of the dataset</li>
-    <li>## Data Cleaning</li>
-    <li>## Feature Engineering</li>
-  </ul>
-
-  <h2>How to Run</h2>
-  <ol>
-    <li>Clone or download this repository.</li>
-    <li>Create and activate a Python virtual environment.</li>
-    <li>Install required packages (see <em>Detected Python Dependencies</em> above and add any missing ones).</li>
-    <li>Open the notebook in Jupyter (<code>jupyter notebook</code> or <code>jupyter lab</code>) and run cells top-to-bottom.</li>
-    <li>Place the dataset CSV in the same directory (if not already present) or update the notebook path accordingly.</li>
-  </ol>
-
-  <h2>Suggested Repository Structure</h2>
-  <pre>
-README.html
-2927fb18-ef97-48a7-95bb-9b330025d40d.ipynb
-ecbd7475-015e-40d6-82b5-25ca408b6def.csv
-  </pre>
-
-  <h2>Reproducibility Notes</h2>
-  <ul>
-    <li>Set random seeds where applicable to ensure consistent results across runs.</li>
-    <li>Document any manual steps (data cleaning, feature engineering) inside the notebook.</li>
-    <li>If large files are involved, consider using <code>.gitignore</code> and hosting data externally.</li>
-  </ul>
-
-  <h2>License</h2>
-  <p>Add your preferred license (e.g., MIT, Apache-2.0) as a LICENSE file.</p>
-
-  <h2>Citation</h2>
-  <p>If you use this work, please cite this repository. You can add a BibTeX entry here if desired.</p>
-
-  <h2>Contact</h2>
-  <p>For questions or feedback, please open an issue or contact the maintainer.</p>
+    <h1>Spam Email Detection using Machine Learning</h1>
+    <h2>Overview</h2>
+    <p>This project implements a Spam Email Detection system using machine learning models. 
+    The goal is to classify emails as <strong>Spam</strong> or <strong>Ham (Not Spam)</strong> 
+    based on their content. Spam detection is critical for email service providers to reduce 
+    malicious activity, phishing, and junk mail, ensuring a safer user experience. 
+    In this project, text data is transformed into numerical features using 
+    <strong>TF-IDF (Term Frequency–Inverse Document Frequency)</strong> before training models.</p>
+    <h2>Dataset</h2>
+    <p>The dataset contains labeled emails, where each message is classified as spam or ham.</p>
+    <ul>
+        <li>Source: Enron / SMS Spam Collection dataset (or your dataset)</li>
+        <li>Total emails: ~5,000 (replace with actual number)</li>
+        <li>Spam emails: ~800</li>
+        <li>Ham emails: ~4,200</li>
+        <li>Text-based dataset with target labels</li>
+    </ul>
+    <h2>Features</h2>
+    <ul>
+        <li><strong>Message</strong> – The raw email or SMS text</li>
+        <li><strong>Label</strong> – Spam (1) or Ham (0)</li>
+        <li><strong>Engineered Features</strong> – TF-IDF, Bag of Words, n-grams, etc.</li>
+    </ul>
+    <h2>Methodology</h2>
+    <h3>Data Preprocessing</h3>
+    <ul>
+        <li>Lowercasing and cleaning text</li>
+        <li>Removing stopwords and punctuation</li>
+        <li>Tokenization and lemmatization</li>
+        <li>Vectorization using TF-IDF</li>
+    </ul>
+    <h3>Modeling</h3>
+    <p>Several machine learning algorithms are tested, including:</p>
+    <ul>
+        <li>Logistic Regression</li>
+        <li>Naive Bayes</li>
+        <li>Support Vector Machines</li>
+        <li>Random Forest</li>
+    </ul>
+    <h3>Evaluation</h3>
+    <p>Models are evaluated using the following metrics:</p>
+    <ul>
+        <li>Accuracy</li>
+        <li>Precision</li>
+        <li>Recall</li>
+        <li>F1-score</li>
+        <li>Confusion Matrix</li>
+    </ul>
+    <h2>Results</h2>
+    <p>The best-performing model (e.g., Logistic Regression / Naive Bayes) achieved high accuracy and 
+    recall, effectively detecting spam messages while minimizing false positives.</p>
+    <h2>Conclusion</h2>
+    <p>This project demonstrates the application of machine learning for spam detection and 
+    highlights the importance of text preprocessing, <strong>TF-IDF feature extraction</strong>, 
+    and model selection for NLP tasks.</p>
+    <h2>Future Work</h2>
+    <ul>
+        <li>Experiment with deep learning models (LSTM, BERT)</li>
+        <li>Deploy as a web API or email filter</li>
+        <li>Real-time spam detection</li>
+    </ul>
+    <h2>References</h2>
+    <ul>
+        <li><a href="https://archive.ics.uci.edu/ml/datasets/sms+spam+collection" target="_blank">UCI SMS Spam Dataset</a></li>
+        <li><a href="https://scikit-learn.org/stable/" target="_blank">Scikit-learn Documentation</a></li>
+    </ul>
 </body>
 </html>
