@@ -15,7 +15,7 @@
     <h2>Dataset</h2>
     <p>The dataset contains labeled emails, where each message is classified as spam or ham.</p>
     <ul>
-        <li>Source: <pre>email.csv</pre></li>
+        <li>Source: <a href="https://archive.ics.uci.edu/ml/datasets/sms+spam+collection" target="_blank">Dataset</a></li>
         <li>Total emails: ~5,000</li>
         <li>Spam emails: ~800</li>
         <li>Ham emails: ~4,200</li>
