@@ -32,7 +32,7 @@
     <ul>
         <li>Lowercasing and cleaning text</li>
         <li>Removing stopwords and punctuation</li>
-        <li><strong>Vectorization using TF-IDF(Term Frequency–Inverse Document Frequency)</strong></li>
+        <li>Vectorization using TF-IDF(Term Frequency–Inverse Document Frequency)</li>
     </ul>
     <h3>Evaluation</h3>
     <p>Models are evaluated using the following metrics:</p>
