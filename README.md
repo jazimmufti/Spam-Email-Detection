@@ -44,8 +44,8 @@
         <li>Confusion Matrix</li>
     </ul>
     <h2>Results</h2>
-    <p>The best-performing model (i.e, Logistic Regression achieved a tremendous accuracy of 97% alongside high
-    recall, effectively detecting spam messages while minimizing false positives.</p>
+    <p>The best-performing model i.e, Logistic Regression achieved a tremendous accuracy of 97% alongside high
+    recall and precision, effectively detecting spam messages while minimizing false positives.</p>
     <h2>Conclusion</h2>
     <p>This project demonstrates the application of machine learning for spam detection and 
     highlights the importance of text preprocessing, <strong>TF-IDF feature extraction</strong>, 
