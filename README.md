@@ -15,8 +15,8 @@
     <h2>Dataset</h2>
     <p>The dataset contains labeled emails, where each message is classified as spam or ham.</p>
     <ul>
-        <li>Source: Enron / SMS Spam Collection dataset (or your dataset)</li>
-        <li>Total emails: ~5,000 (replace with actual number)</li>
+        <li>Source: <pre>email.csv</pre></li>
+        <li>Total emails: ~5,000</li>
         <li>Spam emails: ~800</li>
         <li>Ham emails: ~4,200</li>
         <li>Text-based dataset with target labels</li>
