@@ -58,8 +58,8 @@
     </ul>
     <h2>References</h2>
     <ul>
-        <li><a href="https://archive.ics.uci.edu/ml/datasets/sms+spam+collection" target="_blank">UCI SMS Spam Dataset</a></li>
-        <li><a href="https://scikit-learn.org/stable/" target="_blank">Scikit-learn Documentation</a></li>
+        <li>Dataset: <a href="https://archive.ics.uci.edu/ml/datasets/sms+spam+collection" target="_blank">UCI SMS Spam Dataset</a></li>
+        <li>Scikit-Learn Documentation<a href="https://scikit-learn.org/stable/" target="_blank">Scikit-learn Documentation</a></li>
     </ul>
 </body>
 </html>
